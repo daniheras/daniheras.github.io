@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+body{
+  background: #2c3e50;
+}
+
+.frame{
+  height: 100%;
+  width: 100%;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title span{
+  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px 0px black;
+  cursor: default;
+}
+
+.title span:nth-child(1){
+  color: #1abc9c;
+}
+
+.title span:nth-child(2){
+  color: #e74c3c;
+}
+
+.title span:nth-child(3){
+  color: white;
+}
