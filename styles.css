@@ -45,6 +45,11 @@ li:hover{
   color: #7f8c8d;
 }
 
+*::selection{
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+
 @media(orientation: portrait){
   .title{
     font-size: 3em;
