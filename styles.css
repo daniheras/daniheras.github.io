@@ -1,41 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  color: #34495e;
+}
 
 html, body{
   height: 100%;
   width: 100%;
-  margin: 0px;
+  margin: 0;
 }
 
 body{
-  background: #2c3e50;
-}
-
-.frame{
-  height: 100%;
-  width: 100%;
+  background: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  font-size: 5em;
+  padding: 10px;
 }
 
-.title span{
-  font-size: 45px;
-  font-family: 'Pacifico', cursive;
-  text-shadow: 1px 1px 0px black;
-  cursor: default;
+ul{
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
-.title span:nth-child(1){
-  color: #1abc9c;
+ul, li{
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
 }
 
-.title span:nth-child(2){
-  color: #e74c3c;
+li{
+  font-size: 1.5em;
+  padding:15px;
 }
 
-.title span:nth-child(3){
-  color: white;
+li:hover{
+  color: #7f8c8d;
 }
